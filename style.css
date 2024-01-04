@@ -75,6 +75,7 @@ img{
     float: left;
     margin-right: 10px;
     margin-top: 5px;
+    box-shadow: 1px 1px 8px 13px rgb(240, 239, 239);
 
     
 
@@ -90,7 +91,49 @@ img{
     margin-right: 30px;
     width: 29%;
     margin-right: 90px;
+    box-shadow: 1px 1px 8px 13px rgb(240, 239, 239);
  
 }
 
+/* code banniere */
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-weight: 400;
+}
+.banniere{
+    background-image: url(images/26.png);
+    background-size: cover;
+    height: 750px;
+    background-blend-mode: darken;
+}
+.banniere h1{
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 40px;
+
+}
+.banniere p{
+    padding-left: 15%;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+}
+.banniere button{
+    margin-top: 20px;
+    margin-left: 15%;
+    height: 45px;
+    width: 150px;
+    border: 1px solid #ce0033;
+    border-radius: 20px;
+    background-color:  #ce0033;
+    color: #fff;
+    font-size: 15px;
+}
 

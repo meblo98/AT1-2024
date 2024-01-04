@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contain_foot{
+    height: 300px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+    justify-content: space-around;
+    background: url('image/image_footer.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+}
+.logo-w{
+    margin-left: 25px;
+    padding-top: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.icon{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.voir_plus{
+    display: flex;
+    flex-direction: column;
+}
+.voir_plus h3{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.coordoner{
+    padding-top: 60px;
+}
+.Newsletter{
+    padding-top: 60px; 
+}
+button{
+    background-color: #ce0033;
+    color: #fff;
+    height: 25px;
+    border: 1px solid #ce0033;
+    border-radius: 20px;
+}
+.red_bar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ce0033;
+}
+.red_1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+.red_2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}

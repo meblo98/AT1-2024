@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    margin-left: 50px;
+    margin-top: 10%;
+    background: #fff;
+}
+.contact h1{
+    text-align: center;
+    color: #ce0033;
+    margin: 35px 0 50px 30px;
+    font-size: 50px;
+}
+span{
+    color: #f00640c3;
+}
+.container_contact{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    gap: 10px;
+}
+.parti_formu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.prenom_nom{
+    display: flex;
+    justify-content: space-around;
+}
+.prenom_nom .prénom{
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.mail_phone{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.messages{
+    margin-top: 35px;
+    margin-left: 147px;
+    width: 700px;
+    height: 300px;
+}
+.check{
+    margin-top: 10px;
+}
+button{
+    display: flex;
+    margin-top: 20px;
+   justify-content: center;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    border: 1px solid #ce0033;
+    border-radius: 21px;
+    background: #ce0033;
+    color: #fff;
+
+}
+.cote_adress{
+    display: flex;
+    flex-direction: column;
+}
+.cote_adress img{
+    margin-right: 20px;
+}
+.tel, .adress, .mail{
+    display: flex;
+    margin-top: 20px;
+}
