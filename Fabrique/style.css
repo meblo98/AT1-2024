@@ -1,0 +1,219 @@
+.body{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+/*.logo{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}*/
+.droite{
+    float: right;
+    text-decoration: none;
+    justify-content: space-between;
+    display:flex ;
+   
+    
+}.droite a {
+    display: inline-block;
+    margin-left: 10px ;
+    padding-left: 60px;
+    padding-right: 20px;
+    color: black;
+   /* transition: color .3s;*/
+    text-decoration: none;
+    font-weight: bolder;
+}
+.droite a:hover,
+.droite.active{
+    color: #ce0033;
+    background:  white ;
+
+}
+button{
+    color: white;
+    background-color: #ce0033;
+    border:1px solid  #ce0033 ;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.recherche{
+    margin-right: 100px;
+    text-decoration: none;
+}
+.choix{
+    text-decoration: none;
+    border: 0;
+    font-weight: bolder;
+    color: #ce0033;
+}
+
+/*secteur la petite histoire*/
+ .titre-petite-histoire {
+    color: #ce0033;
+    text-align: center;
+    font-size: 18px;
+ }
+ .ouverture-de-la-fabrique{
+    background-color: rgb(245, 248, 250);
+ }
+ .titre-ouverture-de-la-fabrique{
+    color:  #ce0033 ;
+    width: 50%;
+    height: 60%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-left: 80px;
+    font-size: 20px;
+ }
+ .bloc-ouverture-de-la-fabrique{
+    display: flex;
+ }
+ .ouverture-de-la-fabrique .paragraphe{
+    font-size: 15px;
+    padding-left: 25%;
+    padding-right: 10%;
+    
+
+ }
+ .photo{
+    background-color: rgb(245, 248, 250);
+ }
+ .photo img{
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    position: relative;
+ }
+/* .ligne{
+    color: #ce0033;
+    position: absolute;
+    background: #ce0033;
+    width:130px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: -1px;
+ } */
+.ligne{
+    background: #ce0033;
+    width:200px;
+    height: 50px;
+    border-left: 10px;
+    border-top-left-radius: 20px;
+    margin-bottom: 30px;
+    position: absolute;
+    right: 108px;
+    top: 290px;
+ 
+}
+.bande{
+    color: white;
+    text-align: center;
+    padding-bottom: 25%;
+}
+/*.ligne1{
+    background: #ce0033;
+    width:110px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: -1px;
+    position: absolute;
+}*/
+
+
+/* Section notre pedagogie*/
+.titre-pedagogie{
+    color: #ce0033;
+    text-align: center;
+    font-size: large;
+    padding-top: 50px;
+}
+.notre-pedagogie{
+    display: flex;
+    padding-top: 40px;
+}
+.pedagogie-active{
+
+    padding-right: 30%;
+
+}
+.titre-pedagogie-active{
+    color: #ce0033;
+    padding-left: 30px;
+}
+.image img{
+    padding-left: 150px;
+    position: relative; 
+}
+.ligne-pedagogie {
+    background-color: #ce0033;
+    width: 30px;
+    height: 10px;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    left: 786px;
+    top: 1360px;
+  
+}
+.text{
+    padding-left: 30px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+/*Les 6 pliers de notre pedagogie
+.pliers{
+    padding-left: 150px;
+    padding-top: 90px;
+}
+.titre-pliers{
+    color: #ce0033;
+}
+.les-first{
+    display: flex;
+    padding-top: 30px;
+}
+.premier-plier{
+    box-shadow: 14px 15px 18px 20px white;
+    width: 30%;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.deuxieme-plier{
+    box-shadow: 14px 15px 18px 20px white;
+    width: 20%;
+    margin-left: 10px;
+}
+.ligne-plier{
+    background-color: #ce0033;
+    width: 300px;
+    height: 5px;
+    position: absolute;
+}*/
+
+.card{
+    background-color: white;
+    border: 1px solid white;
+}
+.gri{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    display: flex;
+    grid-gap: 30px;
+}
+
+
+
