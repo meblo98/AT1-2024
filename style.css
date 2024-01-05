@@ -57,6 +57,7 @@ button{
     font-weight: bolder;
     color: #ce0033;
 }
+/* Section femme
 .femme{
     display: flex;
     margin-top: 50px;
@@ -75,6 +76,7 @@ img{
     float: left;
     margin-right: 10px;
     margin-top: 5px;
+    box-shadow: 1px 1px 8px 13px rgb(240, 239, 239);
 
     
 
@@ -90,6 +92,7 @@ img{
     margin-right: 30px;
     width: 29%;
     margin-right: 90px;
+    box-shadow: 1px 1px 50px px rgb(255, 255, 255);
  
 }
 
