@@ -1,0 +1,308 @@
+/* Media query pour les écrans plus petits (par exemple, mobile) */
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    header img {
+        width: 180px;
+        margin-left: 30%;
+        background: b;
+        margin-bottom: 10px;
+    }
+
+    header ul {
+        background-color: brown;
+        color: aliceblue;
+        width: 100%;
+    }
+
+    header ul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header select {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 4em;
+    }
+
+    header ul li a {
+        margin: 5px 0;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+
+    header ul li a:hover {
+        margin: 5px 0;
+        width: 100%;
+        color: rgba(197, 197, 197, 0.903);
+        font-size: 16px;
+    }
+
+    /**/
+    #fabr h1 {
+        font-size: 43px;
+        margin-bottom: 6em;
+        background-color: rgba(0, 0, 0, 0.369);
+        position: relative;
+        top: 3em;
+
+    }
+
+    .fabrique {
+        width: 90%;
+        top: 42%;
+        display: block;
+    }
+
+    .fabrique div {
+        width: 100%;
+    }
+
+    .fabrique div h2 {
+        font-size: 20px;
+        /* Réduire la taille de la police */
+    }
+
+    .fabrique div p {
+        padding: 0;
+        /* Supprimer le rembourrage */
+    }
+
+    .fabrique div:nth-child(1) p {
+        border-right: none;
+        /* Supprimer la bordure droite */
+        border-bottom: 4px solid white;
+        /* Ajouter une bordure en bas pour séparer les sections */
+        padding: 0 0 2em 0;
+        /* Ajuster le rembourrage */
+    }
+
+
+
+
+    /* SECTION HISTOIRE*/
+
+    section {
+        display: block;
+
+    }
+
+
+    #petite-histoire h2 {
+        font-size: 34px;
+        margin: 2rem;
+    }
+
+    #petite-histoire .histoire p {
+        width: 100%;
+    }
+
+    .histoire {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .histoire div {
+        width: 100%;
+    }
+
+    #petite-histoire h3 {
+        font-size: 24px;
+        margin: 2rem;
+    }
+
+    .histoire .texte {
+        left: 0%;
+        width: auto;
+        padding: 10px 0;
+        margin: 8.4em 0;
+        z-index: 22;
+        font-size: 22px;
+    }
+
+    .histoire .ouverture {
+        width: 100%;
+    }
+
+
+
+
+
+    .pédagogique {
+        display: block;
+        background-color: white;
+        justify-content: center;
+    }
+
+
+    .pédagogique .description {
+        margin-left: 1em;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 90%;
+    }
+
+    /*SECTION EQUIPE */
+
+
+    .cards-equipe {
+        display: block;
+        box-shadow: 1px 1px 5px 5px rgba(220, 217, 217, 0.32);
+        border-radius: 10px;
+        padding: 1em;
+        text-align: center;
+        grid-template-rows: auto;
+    }
+
+    .card-equipe {
+        /* grid-template-columns: max-content 200px 1fr; */
+        box-shadow: 1px 1px 5px 5px rgba(220, 217, 217, 0.32);
+        border-radius: 10px;
+        padding: 1em;
+        text-align: center;
+        grid-template-rows: auto;
+        width: 100%;
+
+    }
+    .card-equipe img {
+
+
+        width: 2dvb;
+        height: 25px;
+        margin:9px 23px;
+    }
+
+    .card-equipe .image-equipe {
+
+
+        width: 125px;
+        height: 125px;
+        margin:9px 23px;
+    }
+
+
+
+    #equipe h2 {
+        color: #e1e0e1;
+        font-size: 2.4em;
+        text-align: center;
+        margin: 3rem;
+        background: #ce0033;
+    }
+
+    #equipe .content {
+        /* grid-template-columns: max-content 200px 1fr; */
+
+        padding: 1em;
+        text-align: center;
+        grid-template-rows: auto;
+    }
+
+
+
+
+
+    /* FIN SECTION HISTOIRE*/
+
+    #pedagogie{
+        display: block;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #pedagogie  h2{
+        font-size: 4vh;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #C3323A;
+    }  
+.pedagogie .peda-plier {
+   
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: left;
+    display: block;
+    width: 90%;
+    margin-bottom: 12px;
+
+   }
+   .pedagogie .fab-text-bg {
+   
+  width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    right: 1em;
+   }
+
+/**/
+
+.valeurs .val-resp {
+   
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: left;
+    display: block;
+    width: 85%;
+    margin-bottom: 5vh;
+
+   }
+   #valeurs .val-resp .val-text{
+
+    top: 2vh;
+    left: 23vh;
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+         
+.valeurs .val-resp .box-resp {
+     
+    justify-content: center;
+    align-items: center;
+   
+    box-shadow: -2px 6px 23px #b4b4b44f; 
+    float: none;
+    padding: 0 18vh ;
+    margin: 2vh;
+    border-radius: 1vh;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }  
+    
+  
+
+   #valeurs .val-resp h2{
+    font-size: 6vh;
+    text-align: left;
+    margin: 0 2vh;
+    position: relative;
+    left:8vh;
+    bottom: 8vh;
+    color: #C3323A;
+}
+}
+

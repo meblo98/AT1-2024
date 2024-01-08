@@ -1,0 +1,919 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+    align-items: center;
+}
+
+
+/* Header*/
+
+header{
+    display: flex;
+    margin: 40px;
+    margin-left: 10%;
+   justify-items: flex-end;
+   justify-content: space-between;
+
+}
+
+header img {
+    height: 50px;
+    width: 100px;
+    margin-right: 30px;
+}
+
+header ul{
+    display: flex;
+    padding: 0;
+}
+
+header ul li {
+    list-style: none;
+} 
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 30px;
+}
+header ul li a:hover{
+    text-decoration: underline #ce0033;
+    font-size: 30px;
+    color: #ce0033;
+  
+}
+header div{
+    padding-top: -10%;
+}
+header div select{
+    border: none;
+    color: #ce0033;
+    background-color: white;
+}
+
+
+header div button{
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin: 20px;
+    border: none;
+    background-color: #ce0033;
+    color: white;
+}
+
+/* FABR*/
+
+#fabr {
+    background-image: url('images/26.png');
+    background-size: cover;
+    position: relative;
+    min-height: 80vh;
+    margin-bottom: 50vh; 
+}
+
+#fabr h1 {
+    background: rgba(29, 27, 27, 0.8);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    font-family: Georgia;
+    color: white;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .fabrique {
+    position: absolute;
+    display: flex;
+    background-color: #ce0033;
+    justify-content: center;
+
+    text-align: center;
+    width: 70%;
+    height: auto;
+    color: white;
+    text-align: justify;
+    opacity: 0.7;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3em;
+}
+
+.fabrique div {
+    width: 50%;
+}
+
+.fabrique div h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.fabrique div p {
+    padding: 0 3em 0 3em;
+    width: 100%;
+}
+
+.fabrique div:nth-child(1) p{
+   
+    border-right: 4px solid white;
+}
+
+.trait{
+    border: solid 2.5px #f8f8f8;
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+/* */
+#petite-histoire {
+    justify-content: space-around;
+    
+}
+#petite-histoire h2{
+    font-size: 3em;
+    color:#ce0033;
+    text-align: center;
+    margin: 3rem;
+}
+#petite-histoire h3{
+    font-size: 2em;
+    color:#ce0033;
+    text-align: center;
+}
+#petite-histoire p{
+    text-align: center;
+    width: 30rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.histoire {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 3rem;
+    background-color:#f8f8f8;
+}
+
+
+.histoire .texte {
+    
+    background: #ce0033;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 72%;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 5%;
+    height: 8%;ass="space" ></hr>
+    </div>
+    font-size: 10px;
+    bottom: 10%;
+    padding: 7px;
+}
+
+.ouverture {
+    width: 30rem;
+}
+
+/*Pedagogique*/
+
+
+#pedagogie{
+    display: block;
+}
+.titre {
+    color: #ce0033;
+    text-align: center;
+    padding: 3%;
+}
+.titre2 {
+    color: #ce0033;
+    padding-bottom: 30px;
+}
+.pédagogique {
+    display: flex;
+    background-color: white; 
+    justify-content: space-around;
+}
+.description {
+    margin-right: 10%;
+    margin-bottom: 10%;
+    text-align: justify;
+    width: 40%;
+    height: 40%;
+}
+.pédagogie {
+    width: 80%;
+    height: 65%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.space {
+    border: solid 2.5px #ce0033;
+    background-color: #ce0033;
+    border-radius: 10px;
+    width: 80px;
+    height: 15px;
+    margin-right:100px;
+    margin-top: 250px;
+    
+}
+
+.video-pédago {
+    position: relative;
+}
+
+.pédagogique .space{
+    position: absolute;
+    top: 0;
+    left: 85%;
+    z-index: -1;
+} 
+
+/**/
+
+   
+.pedagogie .fab-text-bg {
+   
+    width: 50vh;
+    height:112vh;
+    background-image :url(fabrique-img/update/Apprenantes-Senegal-1024x768.jpg) ;
+    border-radius:2vh ;
+    background-size: cover;
+    box-shadow: -2px 6px 23px #b4b4b44f;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    right: 7em;
+   }
+   
+
+
+   
+.pedagogie .peda-plier {
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: left;
+    display: flex;
+    width: 55%;
+    margin-bottom: 12px;
+
+   }
+            
+.pedagogie .peda-plier .box-plier {
+     
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vh; 
+    width:auto;
+    height: auto;
+    text-align: left;
+    background: #fff;
+    box-shadow: -2px 6px 23px #b4b4b44f;
+    border-bottom: 1vh solid#C3323A;
+    position: relative;
+    margin: 2em;
+    left: 3em;
+    padding:  1em;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   #pedagogie  h2{
+    font-size: 6vh;
+    text-align: left;
+    margin:0 12vh;
+    position: relative;
+    left:1px;
+    color: #C3323A;
+}
+            
+.pedagogie .peda-plier .box-plier .numb {
+     
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh; 
+    color: var(--primary-color);
+    text-align: left;    
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 2vh;
+
+   }
+   .pedagogie .peda-plier .box-plier p {
+     
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: justify;    
+    position: relative;
+    width: 90%;
+      font-family: Impact, Haettensc  hweiler, 'Arial Narrow Bold', sans-serif;
+
+   }
+            
+.pedagogie .peda-plier .box-plier h3 {
+     
+    position: relative;
+    font-size: 2vh; 
+    font-family: fantasy;
+    top: 1vh;
+
+   }
+/**/
+
+
+
+#valeurs {
+
+    align-items: center;
+    position: relative;
+    background: var(--primary-color3);
+    width: 100%;
+    height: 138vh;
+    margin: 0;
+    padding: 0;
+justify-content: center;
+    
+    }
+
+
+#valeurs .row h1{
+    font-size: 6vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: #C3323A;
+    position: relative;
+    padding: 0vh 70vh;
+
+}
+
+#valeurs .val-resp .val-text{
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin:0 26vh;
+    top: 2vh;
+    left: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+    
+
+.valeurs .val-resp {
+   
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: left;
+    display: flex;
+    width: 85%;
+    margin-bottom: 5vh;
+
+   }
+  
+
+#valeurs .val-resp h2{
+    font-size: 6vh;
+    text-align: left;
+    margin:  2vh;
+    position: relative;
+    left:8vh;
+    bottom: 28vh;
+    color: #C3323A;
+}
+#valeurs .val-resp .val-text p{
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh; 
+    height: 28vh;
+    text-align: left;
+    position: absolute  ;
+    margin:4vh;
+    top: 26vh;
+    width: 40%;
+    left: 7vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+               
+.valeurs .val-resp .box {
+     
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    bottom: 8vh;
+    margin: 0;
+    padding: 0;
+  }
+           
+.valeurs .val-resp .box-resp {
+     
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2.3vh; 
+    height: 20vh;
+    text-align: left;
+    position: relative;
+    top: 22vh;
+    float: none;
+    padding: 0 1vh ;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }       
+.valeurs .val-resp .box-resp .blog{
+     
+    position: relative;
+    width: 56vh;
+
+   }         
+.valeurs .val-resp .box-resp .numb {
+     
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh; 
+    color: var(--primary-color);
+    text-align: left;
+
+    background-color: #bf80837d;  
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 75vh;
+    float: left;
+    right: 2vh;
+    padding: 1vh;
+    color: #C3323A;
+   }
+            
+.valeurs .val-resp .box-resp .resp-text {
+     
+    position: relative;
+    display: block;
+    margin: 2vh;
+
+
+   }
+       
+             
+.valeurs .val-resp .box-resp h3 {
+     
+    position: relative;
+    font-size: 4vh; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin: 1vh;
+
+
+   }
+       
+.valeurs .val-resp .box-resp p {
+     
+    position: relative;
+    font-size: 3vh; 
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 6vh;
+    width: 50vh;
+
+   }
+
+   #valeurs .val-resp .box .btn{
+    align-items: start;
+    height: 6vh;
+    text-align: center;
+    position: relative  ;
+    background: var(--primary-color);
+    border-radius: 8vh;
+    width: 20vh;
+    color: #efefef;
+    top:0vh;
+    right: 98vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#valeurs .val-resp .box .btn a{
+    font-size: 3vh;
+    position: relative  ;
+    color: #efefef;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+/* EQUIPE */
+
+#equipe h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.equipe-p{
+        text-align: center;
+        font-size: 1.5em;
+}
+.cards-equipe {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
+    grid-gap: 20px;
+    vertical-align: middle;
+    justify-content: space-around;
+  }
+  
+  .card-equipe {
+    display: grid;
+    justify-content: space-around;
+    /* grid-template-columns: max-content 200px 1fr; */
+    box-shadow: 1px 1px 5px 5px rgba(220, 217, 217, 0.32);
+    border-radius: 10px;
+    padding: 1em;
+    width: 20vw; 
+    text-align: center;
+  }
+  
+  .image-equipe {
+    object-fit: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+  }
+#equipe h5{
+    font-size: 1.3em;
+  }
+  #equipe span{
+    color: #ce0033;
+    font-size: 1em;
+  }
+
+  /*Ici la fabrique*/
+  #fabrique h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.cards-fabrique {
+    display: flex;
+    /*grid-template-columns: repeat(auto-fill, minmax(2, 1fr));*/
+    /* grid-gap: 20px;*/
+    /*vertical-align: middle;*/
+    justify-content: space-around;
+  } 
+.card-fabrique{
+    /*display: grid;*/
+    width: 22vw;
+
+}
+.fabrique-image {
+    object-fit: cover;
+    width: 22vw;
+    height: 12vw;
+  } 
+  .fleche{
+    padding-top: 10em;
+  }
+
+  /*Voyager au coeur de la fabrique*/
+  #vac-fabrique{
+    background-image: url(fabrique-img/fondvac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    position: relative;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 1em ;
+    margin-top: 4em;
+    justify-content: space-around;
+
+}
+#vac-fabrique::before{
+    content: '';
+    background-color: #ffffff;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    z-index: 1;
+}
+#vac-fabrique p,  img{
+    position: relative;
+    color: #000000;
+    z-index: 2;
+}
+#vac-fabrique p{
+    width: 40vw;
+}
+#vac-fabrique h3{
+    color: #ce0033;
+    font-size: 1.7em;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 15px;
+}
+#vac-fabrique span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#vac-fabrique img{
+    width: 35vw;
+    height: 25vw;
+    box-shadow: 1px 5px 5px rgba(139, 137, 137, 0.644);
+}
+
+/*Recrutement*/
+#recrutement h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.recrutement {
+    display: flex;
+}
+.recrutement img{
+    width: 40vw;
+    height: 20vw;
+    margin-left: 4rem;
+    box-shadow: 1px 5px 5px rgba(146, 143, 143, 0.701);
+}
+.recrutement-text{
+    width: 40vw;
+    margin-left: 3rem;
+}
+.recrutement-text h3{
+    color: #ce0033;
+    font-size: 1.5em;
+}
+#offres{
+    display: flex;
+    margin-top: 5em;
+    justify-content: space-around;
+}
+
+.offres{
+    background-color: #fff4f4;
+    width: 35vw;
+    padding: 3em;
+    border-radius: 30px;
+}
+.offres h3{
+    color: #ce0033;
+    font-size: 2em;
+    border-bottom: solid 1px #ce0033;
+}
+.premier-section-offre {
+    display: flex;
+    justify-content: space-between;
+}
+.premier-section-offre h4{
+    font-size: 1.3em;
+}
+.premier-section-offre  p{
+    border: solid 1.5px #ce0033;
+    border-radius: 10px;
+    width: 3vw;
+    height: 0vw;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+}
+.deuxieme-section-offre {
+    display: flex;
+}
+.deuxieme-section-offre p{
+    width: 14vw;
+}
+.deuxieme-section-offre span{
+    color: #ce0033;
+}
+.troisieme-section-offre{
+    background-color: #ffffff;
+    width: 15vw;
+    box-shadow: 1px 1px 5px 5px rgba(156, 154, 154, 0.071);
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.offres button{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ce0033;
+    border: none;
+    width: 9vw;
+    height: 2vw;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+.quatrieme-section-offre{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1.5px #ce0033;
+    padding: 1rem;
+}
+
+.cinquieme-section-offre{
+    border-top: solid 1.5px #ce0033;
+    padding-top: 1rem;
+    text-align: right;
+}
+.cinquieme-section-offre a{
+    color: #000000;
+}
+ .form-nom .form-adress{
+     display: flex;
+ }
+ .form{
+     width: 15rem;
+     height: 3rem;
+     margin: 8px;
+     color: #8f8a8a49;
+ }
+ .form-message{
+     width: 32rem;
+     height: 9rem;
+     margin: 5px;
+     color: #8f8a8a49;
+ }
+ .form-checkbox{
+     display: flex;
+     margin: 5px;
+ }
+ #formulaire p{
+     padding-left: 3px;
+     color: #8f8a8a49;
+ }
+ .form-checkbox p span{
+    color: #ce0033;
+    font-weight: bold;
+ }
+.formulaire button{
+    background-color: #ce0033;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    width: 8rem;
+    height: 3rem;
+    margin: 5px;
+}
+.form-element{
+    margin-top: 5rem;
+}
+
+/*Ils en parlent*/
+#discussion h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.discussion-p{
+        text-align: center;
+        font-size: 3em;
+}
+.cards-discussion {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
+    grid-gap: 20px;
+    vertical-align: middle;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.card-discussion {
+    display: grid;
+    justify-content: space-around;
+    /* grid-template-columns: max-content 200px 1fr; */
+    padding: 1em;
+    width: 40vw; 
+    text-align: center;
+}
+  
+.image-discussion {
+    object-fit: cover;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer section{
+    display: block;
+    width: 15%;
+}
+footer{
+    background-image: url(images/footer.jpeg);
+    background-size: 100vh;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-top: 5rem;
+}
+
+.p-footer1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.p-footer{
+    color: #ffffff;
+}
+.h5-footer{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.form-footer{
+    display: flex;
+}
+.a-footer{
+    color: #ffffff;
+    text-decoration: none;
+}
+.button-footer {
+    background-color: #ce0033;
+    border: none;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 3px;
+}
+#mail{
+    height: 2rem;
+    border-radius: 3px;
+}
+.footer2{
+    display: flex;
+    color: #ffffff;
+    background-color: #ce0033;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 1rem;
+}
+
+
+:root {
+    --primary-color: #b11d3a;
+    --primary-color2: #262626;
+    --primary-color3: #ffffff;
+    --primary-bg: #efefef;
+    --primary-color5: #FFDCDE;
+    --primary-color6: #181818;
+    --primary-color7: #FFEBEB
+
+    --font-title: 'Franklin Gothic   ';
+}
