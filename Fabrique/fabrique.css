@@ -18,6 +18,7 @@ body{
 /* Header*/
 
 header{
+    
     display: flex;
     margin: 40px;
     margin-left: 10%;
@@ -230,16 +231,15 @@ header div button{
     margin-left: 10%;
     margin-bottom: 5%;
 }
-.space {
+/* .space {
     border: solid 2.5px #ce0033;
     background-color: #ce0033;
     border-radius: 10px;
     width: 80px;
     height: 15px;
-    margin-right:100px;
     margin-top: 250px;
     
-}
+} */
 
 .video-pédago {
     position: relative;
@@ -364,17 +364,18 @@ header div button{
     height: 138vh;
     margin: 0;
     padding: 0;
-justify-content: center;
+    justify-content: center;
     
     }
 
 
-#valeurs .row h1{
+#valeurs h1{
     font-size: 6vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     color: #C3323A;
     position: relative;
-    padding: 0vh 70vh;
+    text-align: center;
+    /* padding: 0vh 70vh; */
 
 }
 
@@ -593,12 +594,12 @@ justify-content: center;
     display: flex;
     /*grid-template-columns: repeat(auto-fill, minmax(2, 1fr));*/
     /* grid-gap: 20px;*/
-    /*vertical-align: middle;*/
+    /* vertical-align: middle; */
     justify-content: space-around;
   } 
 .card-fabrique{
     /*display: grid;*/
-    width: 22vw;
+    /* width: 30%; */
 
 }
 .fabrique-image {
@@ -619,6 +620,8 @@ justify-content: center;
     position: relative;
     display: flex;
     padding-top: 5em;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 1em ;
     margin-top: 4em;
     justify-content: space-around;
@@ -641,7 +644,7 @@ justify-content: center;
     z-index: 2;
 }
 #vac-fabrique p{
-    width: 40vw;
+    /* width: 40vw; */
 }
 #vac-fabrique h3{
     color: #ce0033;
@@ -663,7 +666,7 @@ justify-content: center;
 /*Recrutement*/
 #recrutement h2{
     color: #ce0033;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     margin: 3rem;
 }
@@ -677,8 +680,9 @@ justify-content: center;
     box-shadow: 1px 5px 5px rgba(146, 143, 143, 0.701);
 }
 .recrutement-text{
-    width: 40vw;
+    /* width: 40vw; */
     margin-left: 3rem;
+    margin-right: 3rem;
 }
 .recrutement-text h3{
     color: #ce0033;
@@ -692,8 +696,9 @@ justify-content: center;
 
 .offres{
     background-color: #fff4f4;
-    width: 35vw;
-    padding: 3em;
+    width: 100%;
+    padding-left: 3em;
+    margin-left: 3rem;
     border-radius: 30px;
 }
 .offres h3{
@@ -860,7 +865,7 @@ footer{
     /* background-size: 200vh; */
     background-repeat: no-repeat;
     background-size: cover;
-    
+    /* width: ; */
     /* min-height: 60vh; */
     background-position: 300%;
     display: flex;
