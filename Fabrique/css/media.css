@@ -2,6 +2,9 @@
 
 
 @media only screen and (max-width: 768px) {
+    body{
+        width: auto;
+    }
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -11,7 +14,7 @@
     }
 
     header img {
-        width: 180px;
+        width: 100px;
         margin-left: 30%;
         background: b;
         margin-bottom: 10px;
@@ -28,12 +31,16 @@
         justify-content: center;
         text-align: center;
     }
-
+    .selectt{
+        display: flex;
+        padding-left: 3.5rem;
+        flex-direction: column;
+    }
     header select {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin: 0 4em;
+        /* margin: 0 4em; */
     }
 
     header ul li a {
@@ -102,9 +109,12 @@
 
     #petite-histoire h2 {
         font-size: 34px;
-        margin: 2rem;
+        /* margin: 10rem; */
+        margin-top: 600px;
     }
-
+    /* #petite-histoire{
+        margin-top: 100px;
+    } */
     #petite-histoire .histoire p {
         width: 100%;
     }
@@ -126,11 +136,13 @@
 
     .histoire .texte {
         left: 0%;
-        width: auto;
+        width: 100px;
         padding: 10px 0;
+        /* margin-top: 200px; */
         margin: 8.4em 0;
         z-index: 22;
-        font-size: 22px;
+        font-size: 20px;
+        position: absolute;
     }
 
     .histoire .ouverture {

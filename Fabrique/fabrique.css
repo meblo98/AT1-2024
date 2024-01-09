@@ -78,7 +78,7 @@ header div button{
 /* FABR*/
 
 #fabr {
-    background-image: url('images/26.png');
+    background-image: url('fabrique-img/update/26.png');
     background-size: cover;
     position: relative;
     min-height: 80vh;
@@ -853,12 +853,16 @@ justify-content: center;
 
 footer section{
     display: block;
-    width: 15%;
+    /* width: 15%; */
 }
 footer{
-    background-image: url(images/footer.jpeg);
-    background-size: 100vh;
-    min-height: 60vh;
+    background-image: url(fabrique-img/footer.png);
+    /* background-size: 200vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* min-height: 60vh; */
+    background-position: 300%;
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
